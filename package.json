@@ -1,0 +1,36 @@
+{
+  "name": "sf-idp-sso-app",
+  "version": "0.0.1",
+  "description": "Test app to simulate SSO with SAML with Salesforce as Identity Provider",
+  "author": "Enrico Murru <enrico.murru@gmail.com> (http://enree.co)",
+  "keywords": [
+    "saml",
+    "sso"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enreeco/sf-idp-sso-app.git"
+  },
+  "scripts": {
+    "start": "nf run node app.js",
+    "postinstall": "node ./node_modules/bower/bin/bower install"
+  },
+  "dependencies": {
+    "bower": "^1.8.4",
+    "ejs": "*",
+    "express": "3.1.0",
+    "foreman": "*",
+    "passport": "*",
+    "passport-saml": "*"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "bugs": {
+    "url": "https://github.com/enreeco/sf-idp-sso-app/issues"
+  },
+  "homepage": "https://github.com/enreeco/sf-idp-sso-app#readme",
+  "main": "app.js",
+  "devDependencies": {},
+  "license": "ISC"
+}
